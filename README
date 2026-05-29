@@ -1,0 +1,18 @@
+# SysAdmin Toolkit
+
+Conjunto de herramientas de automatización en Python diseñado para la administración de sistemas. Esta aplicación permite procesar archivos de log de autenticación, verificar métricas críticas del sistema operativo y exportar reportes de seguridad.
+
+## Características principales
+
+* Analizador de Logs: Escaneo automatizado de archivos auth.log para identificar intentos fallidos de inicio de sesión (Failed password) y registrar las direcciones IP origen.
+* Monitoreo del Sistema: Diagnóstico del estado de la máquina mediante la verificación del uso de CPU, memoria disponible y almacenamiento en disco.
+* Alertas de Seguridad: Identificación de anomalías basadas en umbrales (ej. más de 5 intentos de acceso fallidos) con generación automática de reportes.
+
+## Requisitos e Instalación
+
+El proyecto requiere Python 3 y las dependencias listadas en el archivo requirements.txt.
+
+1. Clonar el repositorio:
+   ```bash
+   git clone [https://github.com/danielalara1/sysadmin-toolkit.git](https://github.com/danielalara1/sysadmin-toolkit.git)
+   cd sysadmin-toolkit
